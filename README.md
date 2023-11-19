@@ -26,7 +26,7 @@
 
 ## Текстовое описание решения.
 
-    ﻿Console.WriteLine("Введите элементы массива через пробел:");
+    Console.WriteLine("Введите элементы массива через пробел:");
     string input = Console.ReadLine();
     string[] inputArray = input.Split(new[] { ' ' },StringSplitOptions.RemoveEmptyEntries);
 
@@ -57,7 +57,7 @@
 ### Текстовое описание решения с комментариями.
 Считаю необходимым снабдить готовое решение комментариями.
 
-    ﻿Console.WriteLine("Введите элементы массива через пробел:");
+    Console.WriteLine("Введите элементы массива через пробел:");
     string input = Console.ReadLine();
     string[] inputArray = input.Split(new[] { ' ' },StringSplitOptions.RemoveEmptyEntries);
     //Split - разделение. В качестве разделителя используется пробел.
